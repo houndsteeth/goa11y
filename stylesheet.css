@@ -1,0 +1,88 @@
+html {
+  font-family: Inter, Helvetica, sans-serif;
+}
+
+body {
+  width: 100%;
+  background-color: #111;
+}
+
+.a11y-total {
+  color: #ffffff;
+  font-size: 8rem;
+  font-weight: 900;
+}
+
+p {
+  color: #fff;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.pdef {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin: -4rem 0rem 2rem 0;
+  line-height: 2.5rem;
+}
+
+.p-explain {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 5rem 0rem 0rem 0;
+  line-height: 2rem;
+}
+
+.wrapper {
+  margin: 0 2rem;
+  align-items: center;
+  box-sizing: inherit;
+  max-width: 50rem;
+}
+
+h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/*      Responsivity     */
+
+@media only screen and (min-width: 80em) {
+  .wrapper {
+    margin: 0 auto;
+    padding: 0 15em;
+    align-items: center;
+    box-sizing: inherit;
+    max-width: 50rem;
+  }
+
+  header p {
+    font-size: 1.9rem;
+  }
+}
+
+@media only screen and (min-width: 50em) {
+  .wrapper {
+    margin: 0 auto;
+    padding: 0 2rem;
+    align-items: center;
+    box-sizing: inherit;
+  }
+
+  header p {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  header {
+    text-align: left;
+    margin: 4rem 0rem 4rem 0rem;
+  }
+}
